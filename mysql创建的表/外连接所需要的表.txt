@@ -1,0 +1,20 @@
+CREATE TABLE stu(
+ id INT,
+ `name` CHAR(16) 
+);
+
+INSERT INTO stu VALUES
+			(1,'Jack'),
+			(2,'Tom'),
+			(3,'Kity'),
+			(4,'nono');
+			
+CREATE TABLE exam(
+	id INT,
+	grade INT
+);
+
+INSERT INTO exam VALUES
+			(1,56),
+			(2,76),
+			(11,8);
